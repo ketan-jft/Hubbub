@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="1" hostname="ketan-Aspire-E1-572" id="0" name="UserIntegrationSpec" package="com.grailsinaction" tests="1" time="0.465" timestamp="2017-05-12T07:39:32">
+      <properties />
+
+      <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Saving our first user to the database" time="0.464">
+          <failure message="Condition not satisfied:&#xa;&#xa;joe.errors.errorCount == 0&#xa;|   |      |          |&#xa;|   |      1          false&#xa;|   grails.validation.ValidationErrors: 1 errors&#xa;|   Field error in object &apos;com.grailsinaction.User&apos; on field &apos;homepage&apos;: rejected value [http://www.grailsinaction.com]; codes [com.grailsinaction.User.homepage.size.error.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.size.error.homepage,com.grailsinaction.User.homepage.size.error.java.lang.String,com.grailsinaction.User.homepage.size.error,user.homepage.size.error.com.grailsinaction.User.homepage,user.homepage.size.error.homepage,user.homepage.size.error.java.lang.String,user.homepage.size.error,com.grailsinaction.User.homepage.size.toobig.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.size.toobig.homepage,com.grailsinaction.User.homepage.size.toobig.java.lang.String,com.grailsinaction.User.homepage.size.toobig,user.homepage.size.toobig.com.grailsinaction.User.homepage,user.homepage.size.toobig.homepage,user.homepage.size.toobig.java.lang.String,user.homepage.size.toobig,size.toobig.com.grailsinaction.User.homepage,size.toobig.homepage,size.toobig.java.lang.String,size.toobig]; arguments [homepage,class com.grailsinaction.User,http://www.grailsinaction.com,5,15]; default message [Property [{0}] of class [{1}] with value [{2}] does not fall within the valid size range from [{3}] to [{4}]]&#xa;com.grailsinaction.User : (unsaved)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+joe.errors.errorCount == 0
+|   |      |          |
+|   |      1          false
+|   grails.validation.ValidationErrors: 1 errors
+|   Field error in object &apos;com.grailsinaction.User&apos; on field &apos;homepage&apos;: rejected value [http://www.grailsinaction.com]; codes [com.grailsinaction.User.homepage.size.error.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.size.error.homepage,com.grailsinaction.User.homepage.size.error.java.lang.String,com.grailsinaction.User.homepage.size.error,user.homepage.size.error.com.grailsinaction.User.homepage,user.homepage.size.error.homepage,user.homepage.size.error.java.lang.String,user.homepage.size.error,com.grailsinaction.User.homepage.size.toobig.com.grailsinaction.User.homepage,com.grailsinaction.User.homepage.size.toobig.homepage,com.grailsinaction.User.homepage.size.toobig.java.lang.String,com.grailsinaction.User.homepage.size.toobig,user.homepage.size.toobig.com.grailsinaction.User.homepage,user.homepage.size.toobig.homepage,user.homepage.size.toobig.java.lang.String,user.homepage.size.toobig,size.toobig.com.grailsinaction.User.homepage,size.toobig.homepage,size.toobig.java.lang.String,size.toobig]; arguments [homepage,class com.grailsinaction.User,http://www.grailsinaction.com,5,15]; default message [Property [{0}] of class [{1}] with value [{2}] does not fall within the valid size range from [{3}] to [{4}]]
+com.grailsinaction.User : (unsaved)
+
+	at com.grailsinaction.UserIntegrationSpec.Saving our first user to the database(UserIntegrationSpec.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from Saving our first user to the database--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from Saving our first user to the database--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

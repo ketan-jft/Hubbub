@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="hubbub">
+    <output-path>$PROJECT_DIR$/classes/artifacts/hubbub</output-path>
+    <root id="archive" name="hubbub.war">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/work/plugins/asset-pipeline-1.9.6/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
